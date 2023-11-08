@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+#buttons>*, #PlayButton{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 5px;
+    width: 400px;
+}
+#buttons>*:hover{
+    background-color: black;
+    color: white;
+}
+
+#PlayButton:hover{
+    background-color: black;
+    color: white;
+}
+
+#PlayButton{
+    margin-bottom: 10px;
+}
+
+canvas{
+    border: 2px solid black
+}
